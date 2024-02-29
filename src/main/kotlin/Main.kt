@@ -34,24 +34,20 @@ fun main(args: Array<String>) {
                 cristiano.morirSoldado(soldadoCristiano)
                 cementerio.soldadoMuerto(soldadoArabe)
                 cementerio.soldadoMuerto(soldadoCristiano)
-
             }
             1 ->{
                 println("          CAMPEÓN BATALLA:"+ soldadoCristiano)
                 arabe.morirSoldado(soldadoArabe)
                 cementerio.soldadoMuerto(soldadoArabe)
-
             }
             2 ->{
                 println("          CAMPEÓN BATALLA:"+ soldadoArabe)
                 cristiano.morirSoldado(soldadoCristiano)
                 cementerio.soldadoMuerto(soldadoCristiano)
-
             }
         }
         println("${cristiano.jefe}. Me quedan ${cristiano.cantidadSoldados()}")
         println("${arabe.jefe}. Me quedan ${arabe.cantidadSoldados()}")
-
     }
     cementerio.listarMuertos()
 }
